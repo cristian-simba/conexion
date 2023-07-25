@@ -29,8 +29,8 @@ public class Query {
                     datos.append(
                             "ID: " + rs.getInt("ID") + "\n" +
                             "Nombre: " + rs.getString("Nombre")+ "\n" +
-                            "Edad: " + rs.getInt("Edad") + "\n";
-
+                            "Edad: " + rs.getInt("Edad") + "\n" +
+                            "Ciudad: " + rs.getString("Ciudad"));
                 }
 
             }catch (Exception ex){
